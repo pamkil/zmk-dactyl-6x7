@@ -28,16 +28,28 @@
 
         default_layer {
             bindings = <
-    &kp ESC   &kp N1    &kp N2   &kp N3    &kp N4    &kp N5                             &kp N6    &kp N7    &kp N8    &kp N9    &kp N0   &tog RAISE
-    &kp TAB   &kp Q     &kp W    &kp E     &kp R     &kp T                              &kp Y     &kp U     &kp I     &kp O     &kp P    &kp BSLH
-    &mo LOWER &kp A     &kp S    &kp D     &kp F     &kp G                              &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
-    &kp LSHFT &kp Z     &kp X    &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
-              &kp GRAVE &kp BSLH &kp LEFT  &kp RIGHT                                              &kp DOWN  &kp UP    &kp LBKT  &kp RBKT
-                                                      &kp EQUAL &kp MINUS   &kp LBKT  &kp RBKT
-                                                                &kp GRAVE   &kp BSPC
-                                            &kp LCTRL &kp LALT  &kp LGUI    &kp DEL   &kp RET   &kp SPACE
+    &kp ESC     &kp N1      &kp N2     &kp N3     &kp N4      &kp N5    &kp N6                   &kp N7    &kp N8    &kp N9    &kp N0      &tog RAISE
+    &kp TAB     &kp Q       &kp W      &kp E      &kp R       &kp T     &kp T                    &kp Y     &kp Y     &kp U     &kp I       &kp O     &kp P     &kp BSLH
+    &mo LOWER   &kp A       &kp S      &kp D      &kp F       &kp G     &kp G                    &kp H     &kp H     &kp J     &kp K       &kp L     &kp SEMI  &kp SQT
+    &kp LSHFT   &kp Z       &kp X      &kp C      &kp V       &kp B                                        &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH  &kp RSHFT
+    &kp GRAVE   &kp BSLH    &kp LEFT   &kp RIGHT                                                                               &kp DOWN    &kp UP    &kp LBKT  &kp RBKT
+                                                  &kp GRAVE   &kp EQUAL &kp MINUS                &kp LBKT  &kp RBKT  &kp BSPC
+                                                  &kp LCTRL   &kp LALT  &kp LGUI                 &kp DEL   &kp RET   &kp SPACE
             >;
         };
+
+//          map = <
+//  RC(0,0)     RC(0,1)     RC(0,2)    RC(0,3)    RC(0,4)     RC(0,5)     RC(0,6)                RC(0,13)  RC(0,12)  RC(0,11)  RC(0,10)    RC(0,9)   RC(0,8)   RC(0,7)
+//  RC(1,0)     RC(1,1)     RC(1,2)    RC(1,3)    RC(1,4)     RC(1,5)     RC(1,6)                RC(1,13)  RC(1,12)  RC(1,11)  RC(1,10)    RC(1,9)   RC(1,8)   RC(1,7)
+//  RC(2,0)     RC(2,1)     RC(2,2)    RC(2,3)    RC(2,4)     RC(2,5)     RC(2,6)                RC(2,13)  RC(2,12)  RC(2,11)  RC(2,10)    RC(2,9)   RC(2,8)   RC(2,7)
+//  RC(3,0)     RC(3,1)     RC(3,2)    RC(3,3)    RC(3,4)     RC(3,5)                                      RC(3,12)  RC(3,11)  RC(3,10)    RC(3,9)   RC(3,8)   RC(3,7)
+//  RC(4,0)     RC(4,1)     RC(4,2)    RC(4,3)                                                                                 RC(4,10)    RC(4,9)   RC(4,8)   RC(3,7)
+//
+//                                                RC(4,4)     RC(5,5)      RC(5,3)               RC(5,10)  RC(5,12)  RC(4,11)
+//                                                RC(4,4)     RC(5,4)      RC(5,2)               RC(5,9)   RC(5,11)  RC(4,11)
+//          >;
+//      };
+
 
         mac_layer {
             bindings = <
