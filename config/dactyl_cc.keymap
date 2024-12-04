@@ -33,7 +33,7 @@
     &mo LOWER   &kp A       &kp S       &kp D       &kp F       &kp G       &kp LPAR            &kp RPAR    &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
     &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B                                       &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
     &kp GRAVE &kp KP_MULTIPLY &kp LEFT  &kp RIGHT                                                                                   &kp DOWN    &kp UP      &kp LT      &kp GT
-                                                    &kp SPACE   &kp EQUAL   &kp MINUS           &kp LBKT    &kp SPACE   &kp RBKT
+                                                    &kp EQUAL   &kp SPACE   &kp MINUS           &kp LBKT    &kp SPACE   &kp RBKT
                                                     &kp LCTRL   &kp LALT    &kp LGUI            &kp DEL     &kp RET     &kp BSPC
             >;
         };
